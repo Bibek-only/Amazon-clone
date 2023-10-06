@@ -1,1 +1,1 @@
-# basic-css-project
+# Amazon-clone
