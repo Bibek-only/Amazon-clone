@@ -130,6 +130,12 @@ span {
 	width: 80%;
 	margin-bottom: 25px;
 }
+@media (min-width: 800px){
+	.y{
+		display: none;
+	}
+}
+
 .hero-msg a {
 	text-decoration: none;
 	color: #007185;
@@ -174,7 +180,7 @@ footer {
 	justify-content: center;
 	font-size: 0.85rem;
 }
-.foot-panell p {
+.foot-panell a {
 	margin-top: 20px;
 }
 
@@ -232,10 +238,53 @@ ul a {
 	text-decoration: none;
 	color: white;
 }
-
-@media (max-width :600px){
-	body{
-		display:none;
-	}
+.seemore{
+	text-decoration: none;
 }
-
+.phone{
+	display: none;
+}
+@media (max-width: 600px){
+	
+.nav-search{
+	display: none;
+}	
+.nav-signin{
+	display: none;
+}
+.navbar{
+	justify-content: space-between;
+}
+.pannel{
+	height: 45px;
+	justify-content: space-around;
+}
+.pannel-option{
+	display :none;
+}
+.hero-section {
+    height: 190px;
+    background-image: url(photo/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg > p{
+	display: none;
+}
+.box {
+    height: 200px;
+    width: 40%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 0.5px solid transparent;
+}
+.box-image {
+    height: 100px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+}
