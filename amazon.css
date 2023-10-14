@@ -287,4 +287,8 @@ ul a {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.mobile-navbar{
+display: flex;
+height: 45px;
+}
 }
