@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	font-family: arial;
@@ -11,6 +10,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	
 }
 .nav-logo {
 	height: 50px;
@@ -131,7 +131,7 @@ span {
 	width: 80%;
 	margin-bottom: 25px;
 }
-@media (min-width: 800px){
+@media (min-width: 850px){
 	.y{
 		display: none;
 	}
@@ -248,7 +248,7 @@ ul a {
 .phone{
 	display: none;
 }
-@media (max-width: 600px){
+@media (max-width: 850px){
 	
 .nav-search{
 	display: none;
@@ -292,7 +292,10 @@ ul a {
     margin-bottom: 1rem;
 }
 .mobile-navbar{
-display: flex;
-height: 45px;
+	display: flex;
+	
+	height: 45px;
+	
 }
+
 }
